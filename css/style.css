@@ -692,3 +692,11 @@ hr.hr{border-bottom:1px solid var(--jd-line)}
 .article-nav-title{font-size:1.6rem;color:var(--jd-blue);line-height:1.5}
 .article-nav-link-wrap:hover .article-nav-title{color:var(--jd-blue-d)}
 
+/* ---------- 关于我们页：标题居中，与首页一致 ---------- */
+.article-type-page .article-entry h2{text-align:center;font-size:3.6rem;font-weight:700;color:#1a1a1a;letter-spacing:1px;border-bottom:none;margin:4rem 0 1.6rem}
+.article-type-page .article-entry h2::after{content:'';display:block;width:5rem;height:3px;margin:1.6rem auto 0;background:var(--jd-blue)}
+.article-type-page .article-entry h3{font-size:2rem;font-weight:600;color:#1a1a1a;margin:2.2rem 0 1rem}
+.article-type-page .article-entry p{font-size:1.6rem;line-height:2;color:#3d4a56}
+.article-type-page .article-entry ul{font-size:1.6rem;line-height:2;color:#3d4a56}
+@media(max-width:768px){.article-type-page .article-entry h2{font-size:2.8rem}}
+
