@@ -572,20 +572,20 @@ a{color:var(--jd-text)}
 .jd-footer-quick ul{display:flex;flex-wrap:wrap;list-style:none;margin:0;padding:0}
 .jd-footer-quick li{flex:1;min-width:20rem;border-right:1px solid rgba(255,255,255,.1)}
 .jd-footer-quick li:last-child{border-right:none}
-.jd-footer-quick a{display:flex;align-items:center;justify-content:center;gap:1.2rem;padding:2.6rem 1.6rem;color:#fff;font-size:1.8rem;text-decoration:none;transition:background .3s}
+.jd-footer-quick a{display:flex;align-items:center;justify-content:center;gap:1.2rem;padding:2rem 1.4rem;color:#fff;font-size:2.16rem;text-decoration:none;transition:background .3s}
 .jd-footer-quick a:hover{background:rgba(255,255,255,.06);color:#fff}
-.jd-footer-main{padding:5rem 0 0}
+.jd-footer-main{padding:3.6rem 0 0}
 .jd-footer-grid{display:grid;grid-template-columns:1.1fr 1fr 1fr 1.3fr;gap:3.2rem}
-.jd-footer-col h5{margin:0 0 2rem;color:#fff;font-size:1.9rem;font-weight:600}
+.jd-footer-col h5{margin:0 0 1.4rem;color:#fff;font-size:2.28rem;font-weight:600}
 .jd-footer-col ul{list-style:none;margin:0;padding:0}
-.jd-footer-col ul li{margin-bottom:1rem}
-.jd-footer-col ul li a{color:rgba(255,255,255,.75);font-size:1.45rem;text-decoration:none;transition:color .3s}
+.jd-footer-col ul li{margin-bottom:0.6rem}
+.jd-footer-col ul li a{color:rgba(255,255,255,.75);font-size:1.74rem;text-decoration:none;transition:color .3s}
 .jd-footer-col ul li a:hover{color:#fff}
-.jd-footer-contact p{margin:0 0 1rem;color:rgba(255,255,255,.75);font-size:1.45rem;line-height:1.7}
+.jd-footer-contact p{margin:0 0 0.6rem;color:rgba(255,255,255,.75);font-size:1.74rem;line-height:1.7}
 .jd-footer-contact .big{color:#fff;font-size:2.4rem;font-weight:700}
 .jd-footer-contact a{color:rgba(255,255,255,.85);text-decoration:none}
 .jd-footer-contact a:hover{color:#fff}
-.jd-footer-bottom{margin-top:4rem;padding:2rem 0;border-top:1px solid rgba(255,255,255,.1);text-align:center;color:#aaa;font-size:1.35rem}
+.jd-footer-bottom{margin-top:2.8rem;padding:1.5rem 0;border-top:1px solid rgba(255,255,255,.1);text-align:center;color:#aaa;font-size:1.62rem}
 .jd-footer-bottom a{color:#aaa;text-decoration:none}
 .jd-footer-bottom a:hover{color:#fff}
 @media(max-width:992px){.jd-footer-grid{grid-template-columns:repeat(2,1fr);gap:2.6rem}.jd-footer-quick li{min-width:50%}}
