@@ -700,3 +700,4 @@ hr.hr{border-bottom:1px solid var(--jd-line)}
 .article-type-page .article-entry ul{font-size:1.6rem;line-height:2;color:#3d4a56}
 @media(max-width:768px){.article-type-page .article-entry h2{font-size:2.8rem}}
 
+.banner .banner-text .page-type-title{font-size:3.6rem;font-weight:700}
