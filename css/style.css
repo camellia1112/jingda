@@ -665,3 +665,16 @@ hr.hr{border-bottom:1px solid var(--jd-line)}
 .jd-crumb a{color:var(--jd-blue)}
 
 @media(max-width:600px){.jd-navbar .brand .logo,.jd-brandbox .logo{height:5.6rem}.jd-headtel .tip{font-size:1.5rem}.jd-headtel .num{font-size:1.7rem}}
+
+/* ---------- 新闻详情页排版（参考杰瑞集团新闻页） ---------- */
+.article-cover{margin:0 0 2.6rem;text-align:center}
+.article-cover-img{max-width:52%;max-height:34rem;width:auto;object-fit:cover;margin:0 auto}
+.article-title{color:#1a1a1a;font-size:2.6rem;font-weight:700;line-height:1.4;margin:0;text-align:left}
+.article-meta{color:#999;font-size:1.4rem;margin:1rem 0 2.6rem}
+.article-entry{color:#3d4a56;font-size:1.6rem;line-height:2}
+.article-entry p{margin:0 0 1.8rem}
+.article-entry h2{margin:3rem 0 1.4rem;padding-bottom:.8rem;border-bottom:2px solid var(--jd-line);color:#1a1a1a;font-size:2.2rem}
+.article-entry h3{color:#1a1a1a;font-size:1.9rem;margin:2.4rem 0 1rem}
+.article-entry img{max-width:100%;display:block;margin:2rem auto}
+@media(max-width:768px){.article-cover-img{max-width:92%}.article-title{font-size:2.2rem}}
+
