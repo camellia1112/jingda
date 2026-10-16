@@ -684,3 +684,11 @@ hr.hr{border-bottom:1px solid var(--jd-line)}
 .news-grid .card{height:100%}
 @media(max-width:768px){.news-grid{grid-template-columns:repeat(2,1fr);gap:1.8rem}}
 
+/* ---------- 文章上一篇/下一篇 ---------- */
+.article-nav{display:flex;justify-content:space-between;gap:3rem;margin:4rem 0 0;padding-top:2rem;border-top:1px solid var(--jd-line)}
+.article-nav-link-wrap{flex:1;display:block;text-decoration:none;color:var(--jd-text)}
+#article-nav-older{text-align:right}
+.article-nav-caption{display:block;font-size:1.3rem;color:#999;margin-bottom:.5rem}
+.article-nav-title{font-size:1.6rem;color:var(--jd-blue);line-height:1.5}
+.article-nav-link-wrap:hover .article-nav-title{color:var(--jd-blue-d)}
+
