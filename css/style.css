@@ -701,3 +701,14 @@ hr.hr{border-bottom:1px solid var(--jd-line)}
 @media(max-width:768px){.article-type-page .article-entry h2{font-size:2.8rem}}
 
 .banner .banner-text .page-type-title{font-size:3.6rem;font-weight:700}
+
+/* ---------- 联系我们页：卡片网格 ---------- */
+.jd-contact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2.4rem;margin-top:3rem}
+.jd-contact-card{background:#fff;border:1px solid var(--jd-line);padding:3.2rem 2rem;text-align:center;transition:all .4s}
+.jd-contact-card:hover{border-color:var(--jd-blue);box-shadow:0 12px 28px rgba(0,117,194,.12);transform:translateY(-4px)}
+.jd-contact-card h3{color:var(--jd-blue);font-size:1.8rem;font-weight:600;margin:0 0 1.2rem}
+.jd-contact-card p{color:#4a5b6e;font-size:1.6rem;line-height:1.8;margin:0;word-break:break-all}
+.jd-contact-card a{color:#4a5b6e;text-decoration:none}
+@media(max-width:992px){.jd-contact-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.jd-contact-grid{grid-template-columns:1fr}}
+
