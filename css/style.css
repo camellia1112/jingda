@@ -678,3 +678,9 @@ hr.hr{border-bottom:1px solid var(--jd-line)}
 .article-entry img{max-width:100%;display:block;margin:2rem auto}
 @media(max-width:768px){.article-cover-img{max-width:92%}.article-title{font-size:2.2rem}}
 
+/* ---------- 新闻列表：四列网格 ---------- */
+.news-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2.4rem;margin:0}
+.news-grid .col-3{width:auto;padding:0;margin:0}
+.news-grid .card{height:100%}
+@media(max-width:768px){.news-grid{grid-template-columns:repeat(2,1fr);gap:1.8rem}}
+
