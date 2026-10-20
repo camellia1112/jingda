@@ -712,3 +712,7 @@ hr.hr{border-bottom:1px solid var(--jd-line)}
 @media(max-width:992px){.jd-contact-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.jd-contact-grid{grid-template-columns:1fr}}
 
+/* 下拉菜单文字始终为深色（即使在“产品中心”高亮的页面） */
+.jd-nav li.active .jd-sub a{color:var(--jd-text);background:transparent}
+.jd-nav li.active .jd-sub a:hover{color:var(--jd-blue);background:#fff}
+
